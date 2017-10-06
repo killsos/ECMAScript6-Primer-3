@@ -104,10 +104,12 @@ npm install -D eslint babel-eslint
 
 * for循环中函数值会被锁定
 
-```for (let i = 0; i < 3; i++) {
+```
+for (let i = 0; i < 3; i++) {
 	let i = 'abc';
 	console.log(i);
-}```
+}
+```
 
 * for循环中就是设置循环变量的那部分是一个父级作用域,而循环体内内部是一个单独的子作用域
 
