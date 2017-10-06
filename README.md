@@ -1,5 +1,7 @@
 # ECMAScript6-Primer-3
 
+### 1
+
 stage0 	展示阶段		strawman
 stage1 	征求意见阶段  proposal
 stage2  草案阶段     draft
@@ -92,7 +94,7 @@ npm install -D eslint babel-eslint
 
 ------------------------------------------------------------------------------------------
 
-2
+### 2
 
 2.1 let声明变量
 
@@ -102,10 +104,10 @@ npm install -D eslint babel-eslint
 
 * for循环中函数值会被锁定
 
-`for (let i = 0; i < 3; i++) {
+```for (let i = 0; i < 3; i++) {
 	let i = 'abc';
 	console.log(i);
-}`
+}```
 
 * for循环中就是设置循环变量的那部分是一个父级作用域,而循环体内内部是一个单独的子作用域
 
